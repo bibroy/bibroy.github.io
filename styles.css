@@ -1,0 +1,53 @@
+/* Resetting some default styles for consistency across browsers */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial, sans-serif';
+}
+
+/* Full-height hero section */
+.hero {
+    height: 100vh;
+    background: url('https://source.unsplash.com/random/1600x900') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+/* Centered content within the hero */
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Styles for the heading */
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+/* Styles for the paragraph */
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+/* Styles for the call-to-action button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.cta-button:hover {
+    background-color: #0056b3;
+}
